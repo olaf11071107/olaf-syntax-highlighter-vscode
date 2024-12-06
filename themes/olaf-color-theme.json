@@ -1,0 +1,31 @@
+{
+    "name": "Olaf Theme",
+    "type": "light",
+    "colors": {
+      // "editor.background": "#f7fcfd",
+      // "editor.foreground": "#2d3436",
+      "editorCursor.foreground": "#0984e3"
+    },
+    "tokenColors": [
+      {
+        "scope": "keyword.control.olaf",
+        "settings": {
+          "foreground": "#6c5ce7",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "string.quoted.double.olaf",
+        "settings": {
+          "foreground": "#e17055"
+        }
+      },
+      {
+        "scope": "comment.line.double-slash.olaf",
+        "settings": {
+          "foreground": "#636e72",
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  }

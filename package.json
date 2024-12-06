@@ -1,0 +1,18 @@
+{
+    "name": "olaf-syntax-highlighter",
+    "displayName": "Olaf Syntax Highlighter",
+    "description": "Syntax highlighting, IntelliSense, and more for Olaf language.",
+    "version": "1.0.0",
+    "publisher": "olaf11071107",
+    "engines": { "vscode": "^1.80.0" },
+    "categories": ["Programming Languages"],
+    "contributes": {
+      "languages": [{ "id": "olaf", "aliases": ["Olaf"], "extensions": [".olaf"], "configuration": "./language-configuration.json" }],
+      "grammars": [{ "language": "olaf", "scopeName": "source.olaf", "path": "./syntaxes/olaf.tmLanguage.json" }],
+      "themes": [{ "label": "Olaf Theme", "uiTheme": "vs-light", "path": "./themes/olaf-color-theme.json" }],
+      "snippets": [{ "language": "olaf", "path": "./snippets/olaf.json" }],
+      "commands": [],
+      "configuration": {}
+    },
+    "repository": "https://github.com/olaf11071107/olaf-syntax-highlighter-vscode.git"
+  }

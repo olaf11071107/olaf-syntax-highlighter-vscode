@@ -1,0 +1,17 @@
+{
+    "Define a Function": {
+      "prefix": "build",
+      "body": ["build ${1:functionName}:", "    $2", "end"],
+      "description": "Define a function in Olaf."
+    },
+    "Define a Class": {
+      "prefix": "class",
+      "body": ["class ${1:ClassName}:", "    build constructor(${2:args}):", "        $3", "    end", "end"],
+      "description": "Define a class in Olaf."
+    },
+    "Loop Until Condition": {
+      "prefix": "keep",
+      "body": ["keep ${1:condition}:", "    $2", "end"],
+      "description": "Create a loop in Olaf."
+    }
+  }

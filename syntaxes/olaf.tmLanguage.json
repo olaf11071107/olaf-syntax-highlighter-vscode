@@ -1,0 +1,31 @@
+{
+    "scopeName": "source.olaf",
+    "patterns": [
+      {
+        "name": "comment.line.double-slash.olaf",
+        "match": "//.*$"
+      },
+      {
+        "name": "keyword.control.olaf",
+        "match": "\\b(build|end|class|snowball|say|keep|until|for each|return|if|else)\\b"
+      },
+      {
+        "name": "variable.language.olaf",
+        "match": "\\b(this)\\b"
+      },
+      {
+        "name": "string.quoted.double.olaf",
+        "match": "\"(.*?)\""
+      },
+      {
+        "name": "constant.numeric.olaf",
+        "match": "\\b\\d+\\b"
+      },
+      {
+        "name": "entity.name.function.olaf",
+        "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(?=\\()"
+      }
+    ],
+    "repository": {},
+    "fileTypes": [".olaf"]
+  }
